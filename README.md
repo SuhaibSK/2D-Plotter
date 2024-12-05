@@ -1,7 +1,7 @@
 # 2D-Plotter
 This repository contains two Python scripts designed to process images captured from a webcam, detect contours, and generate G-code based on the detected contours. These scripts are ideal for applications in robotics, CNC machining, or other automated systems requiring contour-based path planning.
 Files in the Repository
-1. webcamPreprocess.py
+1. web_cam_processing.py
 
 This script handles the image capture and preprocessing pipeline, including:
 
@@ -30,7 +30,7 @@ Outputs
         List of contours
         Dimensions of the processed image.
 
-2. generateGCode.py
+2. processed image to gcode conversion.py
 
 This script uses the contours and image dimensions obtained from webcamPreprocess.py to generate G-code commands for CNC or robotics systems.
 Key Features
