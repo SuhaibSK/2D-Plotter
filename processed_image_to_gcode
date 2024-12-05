@@ -28,6 +28,6 @@ for contour in contours:
 gcode = gcode + f"G00 X0 Y0 \n"
 gcode = gcode + f"M03 S250 \n"
 print(gcode)
-path = r'C:\Users\suhai\PycharmProjects\Jasmin\gcode.nc'
+path = r'C:...\gcode.nc' #Replace with file location
 f = open('gcode.nc', 'w')
 f.write(gcode)
